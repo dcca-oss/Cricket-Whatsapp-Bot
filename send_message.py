@@ -4,7 +4,7 @@ import os
 
 def send_message():
     # Get group ID from environment variable
-    group_id = os.getenv('WHATSAPP_GROUP_ID')
+    group_id = os.getenv('D3XBFdzjsvLB6Mg0mCeGbI')
     
     if not group_id:
         print("Error: No group ID found")
