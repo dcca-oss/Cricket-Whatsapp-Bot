@@ -21,7 +21,7 @@ def send_message():
 This week's matches are scheduled! 
 Check Cricheroes for full details and timings.
 
-📱 View Schedule: [https://cricheroes.com/tournament/1640120/dcca-league-t16-indoor-fall-2025/matches/upcoming-matches]
+📱 View Schedule: https://cricheroes.com/tournament/1640120/dcca-league-t16-indoor-fall-2025/matches/upcoming-matches
 
 *Umpire Rule Reminder:* If assigned umpire is 15+ mins late, captains must mutually appoint player-umpires.
 
@@ -32,8 +32,8 @@ Good luck everyone!"""
 
 Matches are TOMORROW! 
 
-📍 Location: [https://maps.app.goo.gl/dKhaHXQzCnW8bMBN6?g_st=ipc]
-⏰ Time: [YOUR_START_TIME]
+📍 Location: https://maps.app.goo.gl/dKhaHXQzCnW8bMBN6?g_st=ipc
+⏰ Time: [11 AM]
 
 📱 Live Scoring: Cricheroes App
 
