@@ -48,18 +48,32 @@ Play fair and have fun!"""
         return
     
     try:
-        print(f"Attempting to send message to group: {group_id}")
+        print("🤖 Starting WhatsApp automation...")
+        print("📱 This will open WhatsApp Web in a browser")
+        print("🔑 You need to scan QR code (one-time only)")
+        
+        # Calculate time 2 minutes from now
+        send_time = datetime.datetime.now() + datetime.timedelta(minutes=2)
+        hour = send_time.hour
+        minute = send_time.minute
+        
+        print(f"⏰ Scheduled to send at: {hour:02d}:{minute:02d}")
+        
+        # Send message with longer wait time for QR scanning
         pwk.sendwhatmsg_to_group(
             group_id=group_id,
             message=message,
             time_hour=hour,
             time_min=minute,
-            wait_time=20,
-            tab_close=True
+            wait_time=30,  # 30 seconds to scan QR code
+            tab_close=False  # Keep browser open to see what's happening
         )
-        print("Message sent successfully!")
+        
+        print("✅ Message sent successfully!")
+        
     except Exception as e:
-        print(f"Error sending message: {str(e)}")
+        print(f"❌ Error: {str(e)}")
+        print("💡 This is normal for first run - we need QR code setup")
 
 if __name__ == "__main__":
     send_message()
