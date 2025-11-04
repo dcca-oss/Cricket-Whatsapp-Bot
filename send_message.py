@@ -33,7 +33,7 @@ Good luck everyone!"""
 Matches are TOMORROW! 
 
 📍 Location: https://maps.app.goo.gl/dKhaHXQzCnW8bMBN6?g_st=ipc
-⏰ Time: [11 AM]
+⏰ Time: 11 AM
 
 📱 Live Scoring: Cricheroes App
 
